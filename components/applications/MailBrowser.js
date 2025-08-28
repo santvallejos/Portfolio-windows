@@ -2,7 +2,7 @@
 import { useState, useRef } from "react"
 import { motion } from "framer-motion"
 import { ArrowLeft, ArrowRight, RotateCcw, Star, X, Globe, ExternalLink, Mail } from "lucide-react"
-import styles from "./SocialBrowser.module.css"
+import styles from "../social-browsers/SocialBrowser.module.css"
 
 export default function MailBrowser() {
   const [isLoading, setIsLoading] = useState(true)

@@ -1,5 +1,5 @@
 "use client"
-import styles from "./FolderContent.module.css"
+import styles from "../shared/FolderContent.module.css"
 import { Mail, Phone, Globe } from "lucide-react"
 
 export default function ContactFolder() {

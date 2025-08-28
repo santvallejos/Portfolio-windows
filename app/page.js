@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Desktop from "@/components/Desktop"
-import Taskbar from "@/components/Taskbar"
-import StartMenu from "@/components/StartMenu"
-import WindowsLogo from "@/components/WindowsLogo"
-import LoginScreen from "@/components/LoginScreen"
-import Loader from "@/components/Loader"
+import Desktop from "@/components/core/Desktop"
+import Taskbar from "@/components/core/Taskbar"
+import StartMenu from "@/components/core/StartMenu"
+import WindowsLogo from "@/components/core/WindowsLogo"
+import LoginScreen from "@/components/core/LoginScreen"
+import Loader from "@/components/core/Loader"
 import styles from "./page.module.css"
 import { trackLogin, trackLogout, trackAppLaunch, initAnalytics } from "@/lib/analytics"
 

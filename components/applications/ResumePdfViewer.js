@@ -1,7 +1,7 @@
 "use client"
 import { Download, Printer } from "lucide-react"
 import styles from "./ResumePdfViewer.module.css"
-import Experience from "./Experience"
+import Experience from "../portfolio-content/Experience"
 
 export default function ResumePdfViewer() {
   return (

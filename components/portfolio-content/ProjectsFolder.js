@@ -1,6 +1,6 @@
 "use client"
 import { ExternalLink } from "lucide-react"
-import styles from "./FolderContent.module.css"
+import styles from "../shared/FolderContent.module.css"
 
 export default function ProjectsFolder() {
   return (
