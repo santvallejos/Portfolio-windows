@@ -27,7 +27,7 @@ export default function LinkedinBrowser() {
                 />
               </svg>
             </div>
-            <span className={styles.tabTitle}>LinkedIn - thefstack</span>
+            <span className={styles.tabTitle}>LinkedIn - Santiago Vallejos</span>
             <X size={14} className={styles.closeTab} onClick={(e) => e.stopPropagation()} />
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function LinkedinBrowser() {
 
         <div className={styles.urlBar}>
           <Globe size={14} className={styles.urlIcon} />
-          <span className={styles.urlText}>linkedin.com/in/thefstack</span>
+          <span className={styles.urlText}>linkedin.com/in/santiago-vallejos-97a933236/</span>
         </div>
 
         <div className={styles.browserActions}>
@@ -85,7 +85,7 @@ export default function LinkedinBrowser() {
               Due to security restrictions, LinkedIn cannot be displayed in this window.
             </p>
             <a
-              href="https://linkedin.com/in/thefstack"
+              href="https://www.linkedin.com/in/santiago-vallejos-97a933236/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.externalSiteButton}

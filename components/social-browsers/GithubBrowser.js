@@ -28,7 +28,7 @@ export default function GithubBrowser() {
                 />
               </svg>
             </div>
-            <span className={styles.tabTitle}>GitHub - thefstack</span>
+            <span className={styles.tabTitle}>GitHub - santvallejos</span>
             <X size={14} className={styles.closeTab} onClick={(e) => e.stopPropagation()} />
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function GithubBrowser() {
 
         <div className={styles.urlBar}>
           <Globe size={14} className={styles.urlIcon} />
-          <span className={styles.urlText}>github.com/thefstack</span>
+          <span className={styles.urlText}>github.com/santvallejos</span>
         </div>
 
         <div className={styles.browserActions}>

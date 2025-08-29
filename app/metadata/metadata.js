@@ -1,9 +1,9 @@
 export default function generateMetadata() {
-  const title = "Windows 10 UI Clone - Interactive Portfolio by thefstack"
+  const title = "Windows 10 UI Clone - Interactive Portfolio by Santiago Vallejos"
   const description =
     "An interactive portfolio website designed as a Windows 10 desktop clone. Explore projects, skills, and professional information through a familiar Windows 10 interface."
-  const url = "https://portfolio.thefstack.com"
-  const ogImage = "https://portfolio.thefstack.com/images/og-image.png"
+  const url = "https://santiagodev.netlify.app/"
+  const ogImage = "https://santiagodev.netlify.app/images/og-image.png"
 
   return {
     title,
@@ -13,7 +13,7 @@ export default function generateMetadata() {
       title,
       description,
       url,
-      siteName: "thefstack Portfolio",
+      siteName: "Santiago Vallejos Portfolio",
       images: [
         {
           url: ogImage,
@@ -30,7 +30,7 @@ export default function generateMetadata() {
       title,
       description,
       images: [ogImage],
-      creator: "@thefstack",
+      creator: "@santvallejos",
     },
     robots: {
       index: true,
@@ -46,9 +46,9 @@ export default function generateMetadata() {
     alternates: {
       canonical: url,
     },
-    authors: [{ name: "Raj Sharma", url: "https://github.com/thefstack" }],
-    creator: "Raj Sharma",
-    publisher: "thefstack",
+    authors: [{ name: "Santiago Vallejos", url: "https://github.com/santvallejos" }],
+    creator: "Santiago Vallejos",
+    publisher: "santvallejos",
     keywords: [
       "portfolio",
       "windows 10",
@@ -57,8 +57,8 @@ export default function generateMetadata() {
       "react",
       "next.js",
       "interactive portfolio",
-      "raj sharma",
-      "thefstack",
+      "santiago vallejos",
+      "santvallejos",
       "frontend developer",
       "full stack developer",
     ],

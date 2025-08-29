@@ -76,12 +76,7 @@ const portfolioApps = [
     id: "additional-info",
     name: "Additional Info",
     icon: <Info size={24} color="#0078d7" />,
-  },
-  {
-    id: "instagram",
-    name: "Instagram",
-    icon: <Instagram size={24} color="#E4405F" />,
-  },
+  }
 ]
 
 // Essential Windows apps to keep in the Start Menu

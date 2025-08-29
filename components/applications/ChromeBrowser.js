@@ -6,10 +6,10 @@ import { ArrowLeft, ArrowRight, RotateCcw, Home, Star, Menu, X, Search, Globe } 
 import styles from "./ChromeBrowser.module.css"
 
 export default function ChromeBrowser() {
-  const [url, setUrl] = useState("https://www.thefstack.com")
-  const [inputUrl, setInputUrl] = useState("www.thefstack.com")
+  const [url, setUrl] = useState("https://")
+  const [inputUrl, setInputUrl] = useState("https://santiagodev.netlify.app/")
   const [isLoading, setIsLoading] = useState(true)
-  const [history, setHistory] = useState(["https://www.thefstack.com"])
+  const [history, setHistory] = useState(["https://santiagodev.netlify.app/"])
   const [historyIndex, setHistoryIndex] = useState(0)
   const [searchQuery, setSearchQuery] = useState("")
   const browserContentRef = useRef(null)
@@ -137,7 +137,7 @@ export default function ChromeBrowser() {
 
   const goHome = () => {
     setIsLoading(true)
-    const homeUrl = "https://www.thefstack.com"
+    const homeUrl = "https://santiagodev.netlify.app/"
     setUrl(homeUrl)
 
     // Add to history
