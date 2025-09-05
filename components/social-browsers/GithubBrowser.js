@@ -85,7 +85,7 @@ export default function GithubBrowser() {
               Due to security restrictions, GitHub cannot be displayed in this window.
             </p>
             <a
-              href="https://github.com/thefstack"
+              href="https://github.com/santvallejos"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.externalSiteButton}

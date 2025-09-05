@@ -12,8 +12,8 @@ export default function ContactFolder() {
           <Mail size={24} className={styles.contactIcon} />
           <div className={styles.contactDetails}>
             <span className={styles.contactLabel}>Email</span>
-            <a href="mailto:rajsharmahwh19@gmail.com" className={styles.contactValue}>
-              rajsharmahwh19@gmail.com
+            <a href="mailto:vallejossantiago1412@gmail.com" className={styles.contactValue}>
+              vallejossantiago1412@gmail.com
             </a>
           </div>
         </div>
@@ -22,8 +22,8 @@ export default function ContactFolder() {
           <Phone size={24} className={styles.contactIcon} />
           <div className={styles.contactDetails}>
             <span className={styles.contactLabel}>Phone</span>
-            <a href="tel:+919142892678" className={styles.contactValue}>
-              +91 9142892678
+            <a href="tel:+5493795117490" className={styles.contactValue}>
+              +54 9 379-5117490
             </a>
           </div>
         </div>
@@ -33,12 +33,12 @@ export default function ContactFolder() {
           <div className={styles.contactDetails}>
             <span className={styles.contactLabel}>Website</span>
             <a
-              href="https://www.thefstack.com"
+              href="https://santiagodev.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactValue}
             >
-              www.thefstack.com
+              santiagodev.netlify.app
             </a>
           </div>
         </div>

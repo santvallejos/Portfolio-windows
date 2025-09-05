@@ -32,7 +32,7 @@ export default function InstagramBrowser() {
                 <circle cx="18.5" cy="5.5" r="1.5" fill="white" />
               </svg>
             </div>
-            <span className={styles.tabTitle}>Instagram - thefstack</span>
+            <span className={styles.tabTitle}>Instagram - santvallejos</span>
             <X size={14} className={styles.closeTab} onClick={(e) => e.stopPropagation()} />
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function InstagramBrowser() {
 
         <div className={styles.urlBar}>
           <Globe size={14} className={styles.urlIcon} />
-          <span className={styles.urlText}>instagram.com/thefstack</span>
+          <span className={styles.urlText}>instagram.com/santvallejos</span>
         </div>
 
         <div className={styles.browserActions}>
@@ -94,7 +94,7 @@ export default function InstagramBrowser() {
               Due to security restrictions, Instagram cannot be displayed in this window.
             </p>
             <a
-              href="https://instagram.com/thefstack"
+              href="https://instagram.com/santvallejos"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.externalSiteButton}

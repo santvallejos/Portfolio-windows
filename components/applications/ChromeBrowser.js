@@ -6,8 +6,8 @@ import { ArrowLeft, ArrowRight, RotateCcw, Home, Star, Menu, X, Search, Globe } 
 import styles from "./ChromeBrowser.module.css"
 
 export default function ChromeBrowser() {
-  const [url, setUrl] = useState("https://")
-  const [inputUrl, setInputUrl] = useState("https://santiagodev.netlify.app/")
+  const [url, setUrl] = useState("https://santiagodev.netlify.app/")
+  const [inputUrl, setInputUrl] = useState("santiagodev.netlify.app")
   const [isLoading, setIsLoading] = useState(true)
   const [history, setHistory] = useState(["https://santiagodev.netlify.app/"])
   const [historyIndex, setHistoryIndex] = useState(0)
@@ -27,6 +27,19 @@ export default function ChromeBrowser() {
       setInputUrl(url)
     }
   }, [url])
+
+  // Initialize loading when component mounts
+  useEffect(() => {
+    // Set initial loading state
+    setIsLoading(true)
+    
+    // Simulate some loading time for the initial page
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1500)
+    
+    return () => clearTimeout(timer)
+  }, [])
 
   // Handle clicks outside the iframe to deactivate it
   // useEffect(() => {

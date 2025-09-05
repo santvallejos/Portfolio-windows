@@ -5,24 +5,24 @@ export default function Experience() {
   return (
     <div className={styles.experienceContainer}>
       <div className={styles.resumeHeader}>
-        <h1>Raj Sharma</h1>
+        <h1>Santiago Vallejos</h1>
         <div className={styles.contactInfo}>
-          <p>Kolkata, India</p>
-          <p>Email: rajsharmahwh19@gmail.com</p>
-          <p>Phone: +91 9142892678</p>
+          <p>Argentina</p>
+          <p>Email: vallejossantiago1412@gmail.com</p>
+          <p>Phone: +54 9 379-5117490</p>
           <p>
-            <a href="https://linkedin.com/in/thefstack" target="_blank" rel="noopener noreferrer">
-              LinkedIn: linkedin.com/in/thefstack
+            <a href="https://www.linkedin.com/in/santiago-vallejos-97a933236/" target="_blank" rel="noopener noreferrer">
+              LinkedIn: linkedin.com/in/santiago-vallejos-97a933236
             </a>
           </p>
           <p>
-            <a href="https://github.com/thefstack" target="_blank" rel="noopener noreferrer">
-              Github: github.com/thefstack
+            <a href="https://github.com/santvallejos" target="_blank" rel="noopener noreferrer">
+              Github: github.com/santvallejos
             </a>
           </p>
           <p>
-            <a href="https://www.thefstack.com" target="_blank" rel="noopener noreferrer">
-              Website: www.thefstack.com
+            <a href="https://santiagodev.netlify.app" target="_blank" rel="noopener noreferrer">
+              Website: santiagodev.netlify.app
             </a>
           </p>
         </div>

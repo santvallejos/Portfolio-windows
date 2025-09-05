@@ -1,10 +1,10 @@
 # Windows 10 UI Clone - Interactive Portfolio
 
-![Windows 10 UI Clone](https://portfolio.thefstack.com/images/preview.png)
+![Windows 10 UI Clone](https://santiagodev.netlify.app/images/preview.png)
 
 ## 🌐 Live Demo
 
-Visit the live demo at [portfolio.thefstack.com](https://portfolio.thefstack.com)
+Visit the live demo at [santiagodev.netlify.app](https://santiagodev.netlify.app)
 
 ## 📖 Overview
 
@@ -13,19 +13,19 @@ This project is an interactive portfolio website designed as a Windows 10 deskto
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Screen](https://portfolio.thefstack.com/images/screenshots/login.png)
+![Login Screen](https://santiagodev.netlify.app/images/screenshots/login.png)
 
 ### Desktop
-![Desktop](https://portfolio.thefstack.com/images/screenshots/desktop.png)
+![Desktop](https://santiagodev.netlify.app/images/screenshots/desktop.png)
 
 ### Start Menu
-![Start Menu](https://portfolio.thefstack.com/images/screenshots/startmenu.png)
+![Start Menu](https://santiagodev.netlify.app/images/screenshots/startmenu.png)
 
 ### Project Window
-![Project Window](https://portfolio.thefstack.com/images/screenshots/projects.png)
+![Project Window](https://santiagodev.netlify.app/images/screenshots/projects.png)
 
 ### File Explorer
-![File Explorer](https://portfolio.thefstack.com/images/screenshots/explorer.png)
+![File Explorer](https://santiagodev.netlify.app/images/screenshots/explorer.png)
 
 ## ✨ Features
 
@@ -65,8 +65,8 @@ This project is an interactive portfolio website designed as a Windows 10 deskto
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/thefstack/windows10-portfolio.git
-   cd windows10-portfolio
+   git clone https://github.com/santvallejos/Portfolio-windows.git
+   cd Portfolio-windows
    \`\`\`
 
 2. Install dependencies:
@@ -204,7 +204,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any questions or feedback, please reach out to:
 
-- Email: rajsharmahwh19@gmail.com
-- LinkedIn: [linkedin.com/in/thefstack](https://linkedin.com/in/thefstack)
-- GitHub: [github.com/thefstack](https://github.com/thefstack)
-- Website: [www.thefstack.com](https://www.thefstack.com)
+- Email: vallejossantiago1412@gmail.com
+- LinkedIn: [linkedin.com/in/santiago-vallejos-97a933236](https://www.linkedin.com/in/santiago-vallejos-97a933236/)
+- GitHub: [github.com/santvallejos](https://github.com/santvallejos)
+- Website: [santiagodev.netlify.app](https://santiagodev.netlify.app)

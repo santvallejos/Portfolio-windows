@@ -8,7 +8,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['portfolio.thefstack.com'],
+    domains: ['santiagodev.netlify.app'],
     unoptimized: true,
   },
   async headers() {
@@ -44,17 +44,17 @@ const nextConfig = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/thefstack',
+        destination: 'https://github.com/santvallejos',
         permanent: true,
       },
       {
         source: '/linkedin',
-        destination: 'https://linkedin.com/in/thefstack',
+        destination: 'https://www.linkedin.com/in/santiago-vallejos-97a933236/',
         permanent: true,
       },
       {
         source: '/website',
-        destination: 'https://www.thefstack.com',
+        destination: 'https://santiagodev.netlify.app',
         permanent: true,
       },
     ];
